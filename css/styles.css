@@ -334,10 +334,6 @@ img {
   margin: 0px;
 }
 
-/* .background-icon > li:not(:last-child) {
-  margin-right: 30px;
-} */
-
 /* иконки */
 .icon-box {
   width: 270px;
@@ -384,9 +380,9 @@ img {
   fill: #afb1b8;
 }
 
-.icon-item :hover,
-svg .icon-item:focus svg {
-  fill: #ffffff;
+.icon-link:hover .icon-svg,
+.icon-link:focus .icon-svg {
+  fill: #fff;
 }
 .icon-ul {
   display: flex;
@@ -498,8 +494,18 @@ h6 {
 }
 
 /* присоединяйтесь */
+.footer-container {
+  display: flex;
+  /* align-items: baseline; */
+  width: 1170px;
+  height: 140p;
+}
+.footer-boxes {
+  display: flex;
+  align-items: baseline;
+}
 .connect-block {
-  margin-top: 15px;
+  margin-left: 70px;
 }
 .connect-titles {
   margin-bottom: 20px;
