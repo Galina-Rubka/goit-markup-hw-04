@@ -601,6 +601,7 @@ h6 {
 .link-picture {
   cursor: pointer;
   display: block;
+  text-decoration: none;
 }
 .link-picture:hover,
 .link-picture:focus {
