@@ -50,8 +50,8 @@ img {
   text-decoration: none;
 }
 
-.nav-contact :hover,
-.nav-contact :focus {
+.contact-li a:hover,
+.contact-li a:focus {
   color: var(--them-colour);
 }
 .nav-contact-info {
@@ -233,7 +233,8 @@ img {
 
 /* button-portfolio! */
 
-.btn-all:hover {
+.btn-all:hover,
+.btn-all:focus {
   text-decoration: none;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -355,10 +356,10 @@ img {
 }
 /* fffff */
 
-.contact-li:hover .icon-envelope,
-.contact-li:focus .icon-envelope,
-.contact-hover:hover .icon-smartphone,
-.contact-hover:focus .icon-smartphone {
+.nav-contact-info:hover .icon-envelope,
+.nav-contact-info:focus .icon-envelope,
+.nav-contact-info:hover .icon-smartphone,
+.nav-contact-info:focus .icon-smartphone {
   fill: var(--them-colour);
 }
 
